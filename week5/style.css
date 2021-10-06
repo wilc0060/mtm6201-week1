@@ -1,0 +1,49 @@
+.container{
+   max-width: 800px;
+   margin: 0, auto; 
+}
+
+.section{
+    margin: 20px, 0;
+    padding: 0;
+    border: 1px #ff0;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+.b1{
+    background-color: aliceblue;
+}
+
+.b2{
+    background-color: rgb(78, 128, 172);
+}
+
+.b3{
+    background-color: rgb(0, 0, 0);
+}
+
+.b4{
+    background-color: rgb(141, 245, 6);
+}
+
+.transtion .b1{
+    transition-property:width ;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+}
+
+.transtion .b1:hover{
+    width:400px;
+    height:300px;
+}
+
+.transtion .b2{
+transition:width 1s,;
+
+}
+
