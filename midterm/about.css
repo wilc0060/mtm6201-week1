@@ -1,0 +1,379 @@
+/* For Mobile */
+@media only screen and (min-width:320px) {
+    body {
+        margin: 0;
+    }
+
+    #header {
+        background-color: #3c3b3a;
+    }
+
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    .topnav li {
+        float: none;
+        list-style: none;
+    }
+
+    .topnav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* adding animation growth and underline to nav links */
+    .topnav li:hover {
+        transform: scale(1.4);
+        text-decoration: underline;
+    }
+
+    /* Removing underline from ul */
+    nav ul {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .logo-image {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        color: #f2f2f2;
+        text-align: center;
+        margin: 0;
+    }
+
+    h2 {
+        color: #3c3b3a;
+        font-size: 40px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    h3 {
+        color: #26a682;
+        font-size: 40px;
+        padding: 10px 28px;
+        margin: 0;
+
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+
+    p {
+        font-size: 20px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    #keep {
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .construction {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        /* background-image: url(./mtm6201-midterm-master-files/images/about.jpg);
+        background-color: #26a682; */
+        background-image:
+            /* top, transparent red, faked with gradient */
+            linear-gradient(rgba(4, 88, 65, 0.45),
+                rgba(2, 66, 48, 0.815)),
+            /* bottom, image */
+            url(./mtm6201-midterm-master-files/images/about.jpg);
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .service {
+        background-image:
+            /* top, transparent red, faked with gradient */
+            linear-gradient(rgba(3, 85, 62, 0.45),
+                rgba(2, 70, 50, 0.815)),
+            /* bottom, image */
+            url(./mtm6201-midterm-master-files/images/services.jpg);
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* all image with width 0 don't show on mobile that's why they have now width */
+    .bar {
+        width: 0;
+    }
+
+    .bowling {
+        width: 0;
+    }
+
+    .gym {
+        width: 0;
+    }
+
+    .rock {
+        width: 0;
+    }
+
+    .grey {
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        background-color: #3c3b3a;
+    }
+
+    .sub {
+        background-color: #26a682;
+        border-radius: 20px;
+        border: none;
+        color: #f2f2f2;
+        font-size: 25px;
+        font-weight: bold;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .spons {
+        width: 50%;
+        margin: 0;
+    }
+
+    #footer-container {
+        background-color: #3c3b3a;
+        margin: 0;
+    }
+
+    .footer {
+        color: #f2f2f2;
+        text-align: center;
+        margin: 0;
+    }
+
+    .arrow {
+        float: right;
+        width: 4%;
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes arrow {
+        from {
+            transform: scale(1);
+        }
+
+
+        to {
+            transform: scale(0.5);
+        }
+
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    #header {
+        display: flex;
+    }
+
+    .logo-image {
+        width: 10%;
+        margin: 12px;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    nav li a {
+        padding: 14px 16px;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .topnav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .bar {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-left: 20px;
+
+    }
+
+    .bowling {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    .gym {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-left: 20px;
+    }
+
+    .rock {
+        width: 218px;
+        height: 375px;
+        object-fit: cover;
+        margin-right: 20px;
+    }
+
+    #br {
+        display: flex;
+    }
+
+    #comp {
+        display: flex;
+    }
+
+    #g {
+        display: flex;
+    }
+
+    #rc {
+        display: flex;
+    }
+
+    #subscribe {
+        display: flex;
+        border-radius: 15%;
+    }
+
+    .spons {
+        width: 20%;
+    }
+
+    .arrow {
+        width: 2%;
+    }
+}
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    #con {
+        display: flex;
+    }
+
+    .construction {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sponsors {
+        flex-direction: row;
+    }
+
+    .grey {
+        display: flex;
+    }
+
+    .sub {
+        width: 15%;
+        margin-left: -300px;
+    }
+
+    #keep {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bar {
+        width: 400px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    .bowling {
+        width: 400px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .gym {
+        width: 400px;
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .rock {
+        width: 400px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    h2 {
+        width: 87%;
+    }
+
+    .sponsors {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .spons {
+        width: 10%;
+        margin-bottom: 15px;
+    }
+}

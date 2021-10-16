@@ -1,0 +1,397 @@
+/* For Mobile */
+@media only screen and (min-width:320px) {
+    #header {
+        background-color: #3c3b3a;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    /* Removing underline from ul */
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    nav li a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    .topnav li {
+        float: none;
+    }
+
+    .topnav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* adding animation growth and underline to nav links */
+    .topnav li:hover {
+        transform: scale(1.4);
+        text-decoration: underline;
+        color: #26a682;
+    }
+
+    .logo-image {
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    h1 {
+        font-size: 60px;
+        font-family: 'Raleway', sans-serif;
+        color: #3c3b3a;
+        font-weight: bolder;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+
+    h2 {
+        color: #3c3b3a;
+        font-size: 40px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    h3 {
+        color: #26a682;
+        font-size: 25px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    h4 {
+        margin: 0;
+    }
+
+    p {
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    .icon {
+        font-size: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .font:hover {
+        transform: scale(1.3);
+    }
+
+    .icon-text {
+        color: #26a682;
+        font-size: 25px;
+        padding: 10px 28px;
+        margin: 0;
+    }
+
+    .scro {
+        font-size: 0;
+    }
+
+    #scroll {
+        font-size: 0;
+    }
+
+    .arrow {
+        float: right;
+        width: 4%;
+        animation-name: arrow;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes arrow {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.5);
+        }
+    }
+
+
+    .start {
+        background-color: #26a682;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 8px 10px 5px #f2f2f2;
+        color: #f2f2f2;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 2px 8px;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .girl {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grad {
+        width: 100%;
+    }
+
+    #simon {
+        width: 50%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        background-color: #3c3b3a;
+    }
+
+    .pres {
+        color: #f2f2f2;
+        text-align: center;
+    }
+
+    .p1 {
+        color: #f2f2f2;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .learn {
+        background-color: #26a682;
+        color: #f2f2f2;
+        border-radius: 30px;
+        box-shadow: 8px 10px 5px #f2f2f2;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        padding: 10px 25px;
+        font-weight: bold;
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+
+    #bar {
+        width: 100%;
+    }
+
+    #footer-container {
+        background-color: #3c3b3a;
+    }
+
+    .footer {
+        color: #f2f2f2;
+        text-align: center;
+    }
+}
+
+/* * For Tablet Mockup */
+@media only screen and (min-width:768px) {
+    #header {
+        display: flex;
+    }
+
+    .logo-image {
+        width: 10%;
+        margin: 12px;
+    }
+
+    nav li {
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        display: inline;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .topnav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    nav li a {
+        padding: 14px 16px;
+    }
+
+    .icon {
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .scro {
+        color: #3c3b3a;
+        font-size: 15px;
+    }
+
+    #scroll {
+        font-size: 30px;
+        color: #26a682;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pres {
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        ;
+    }
+
+    #simon {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .grad {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    #bar {
+        object-fit: cover;
+        width: 100%;
+        height: 200px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .sap {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .p1 {
+        width: 70%;
+    }
+
+    .start {
+        width: 40%;
+    }
+
+    .learn {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .arrow {
+        width: 2%;
+    }
+}
+
+/* For Desktop Mockup */
+@media only screen and (min-width:958px) {
+    p {
+        font-size: 15px;
+    }
+
+    #bf {
+        display: flex;
+    }
+
+    .icon-text {
+        font-size: 15px;
+    }
+
+    .girl {
+        margin-top: 40px;
+        width: 400px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .start {
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .learn {
+        width: 50%;
+    }
+
+    .grad {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .gr {
+        display: flex;
+        background-color: #f2f2f2;
+    }
+
+    .sap {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #simon {
+        width: 50%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .br {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #bar {
+        margin-top: 50px;
+    }
+
+    #w {
+        width: 50%;
+    }
+
+    .w {
+        width: 50%;
+    }
+
+    #s {
+        width: 50%;
+    }
+
+    #f {
+        width: 50%;
+    }
+}
